@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #f8f9fa;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    z-index: 1000;  
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-logo {
+    text-decoration: none;  
+    color: #2b6cb0; 
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 16px;  
+  }
+  
+  .navbar-link {
+    text-decoration: none; 
+    color: #4A5568; /* Gray color for links */
+    padding: 8px 16px; /* Add padding around links */
+    transition: color 0.2s; /* Smooth transition for color change */
+  }
+  
+  .navbar-link:hover {
+    color: #2b6cb0; /* Change color on hover */
+  }
+  
+  .active {
+    font-weight: bold; /* Bold font for active link */
+    color: #2b6cb0; /* Blue color for active link */
+  }
+  
+  /* Add margin-top to the body or main content to avoid overlap with fixed navbar */
+  body {
+    margin-top: 60px; /* Adjust this value based on the height of your navbar */
+  }
+  
