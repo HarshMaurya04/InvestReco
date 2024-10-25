@@ -1,1 +1,1 @@
-# AI-Financial-Advisor
+# InvestReco
